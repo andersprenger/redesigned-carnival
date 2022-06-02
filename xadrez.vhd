@@ -33,9 +33,9 @@ BEGIN
 
   contador2 : PROCESS (reset, clock)
   BEGIN
-    IF (reset = '1') THEN
+    IF reset = '1' THEN
       intern_cont2 <= x"000";
-    ELSIF (load = '1') THEN
+    ELSIF load = '1' THEN
       intern_cont2 <= i_value;
     ELSIF rising_edge(clock) AND EA = s_j2 THEN
       intern_cont2 <= intern_cont2 - 1;
@@ -44,7 +44,7 @@ BEGIN
 
   resetClock : PROCESS (reset, clock)
   BEGIN
-    IF (reset = '1') THEN
+    IF reset = '1' THEN
       EA <= s_start;
     ELSIF rising_edge(clock) THEN
       EA <= PE;
@@ -56,28 +56,28 @@ BEGIN
   BEGIN
     CASE(ea) IS
       WHEN s_start =>
-      IF (j1 = '1' OR j2 = '1') THEN
+      IF j1 = '1' OR j2 = '1' THEN
         pe <= s_delay;
       END IF;
 
       WHEN s_delay =>
-      IF (j1 = '1') THEN
+      IF j1 = '1' THEN
         pe <= s_j1;
-      ELSIF (j2 = '1') THEN
+      ELSIF j2 = '1' THEN
         pe <= s_j2;
       END IF;
 
       WHEN s_j1 =>
-      IF (intern_cont1 = x"000") THEN
+      IF intern_cont1 = x"000" THEN
         pe <= s_winj1;
-      ELSIF (j1 = '1') THEN
+      ELSIF j1 = '1' THEN
         pe <= s_j2;
       END IF;
 
       WHEN s_j2 =>
-      IF (intern_cont2 = x"000") THEN
+      IF intern_cont2 = x"000" THEN
         pe <= s_winj2;
-      ELSIF (j2 = '1') THEN
+      ELSIF j2 = '1' THEN
         pe <= s_j1;
       END IF;
 
@@ -91,7 +91,7 @@ BEGIN
   winJ2 <= '1' WHEN EA = s_winj2 ELSE
     '0';
 
-  --lembrar de atribuir o valor dos contadores internos para as saidas
+  -- lembrar de atribuir o valor dos contadores internos para as saidas
   contj1 <= intern_cont1;
   contj2 <= intern_cont2;
 END a1;
