@@ -1,0 +1,95 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ander/Downloads/tp3/tp3
+Etb
+Z1 w1654119996
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8tb_xadrez.vhd
+Z5 Ftb_xadrez.vhd
+l0
+L5
+Va::EY6GiA6Y@d0`0om[`G3
+!s100 EE2DYK_k>boacbf3<A31U1
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1654138645
+!i10b 1
+Z8 !s108 1654138645.000000
+Z9 !s90 -reportprogress|300|-work|work|tb_xadrez.vhd|
+Z10 !s107 tb_xadrez.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Aa1
+Z13 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z15 DEx4 work 6 xadrez 0 22 Sho<Q5<]F>I:06`UhnNiA3
+R2
+R3
+DEx4 work 2 tb 0 22 a::EY6GiA6Y@d0`0om[`G3
+l12
+L8
+VM?3U3P?PeEiZ@lhFdX[?<2
+!s100 k8`fFCG;f1J]KoK0f0Xgm2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exadrez
+Z16 w1654138640
+R13
+R14
+R2
+R3
+R0
+Z17 8xadrez.vhd
+Z18 Fxadrez.vhd
+l0
+L6
+VSho<Q5<]F>I:06`UhnNiA3
+!s100 1Qddjon[3H0]oTEX<dP`00
+R6
+32
+R7
+!i10b 1
+R8
+Z19 !s90 -reportprogress|300|-work|work|xadrez.vhd|
+Z20 !s107 xadrez.vhd|
+!i113 1
+R11
+R12
+Aa1
+R13
+R14
+R2
+R3
+R15
+l21
+L17
+VI`j5X<3m@SdPIhR3X`g]83
+!s100 fKBQd;BKD8J4E2i=?1a6[3
+R6
+32
+R7
+!i10b 1
+R8
+R19
+R20
+!i113 1
+R11
+R12
