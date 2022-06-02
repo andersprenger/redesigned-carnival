@@ -33,16 +33,19 @@ BEGIN
 
     value <= x"0BB";
 
-    j1 <= '0', '1' AFTER 602 ns, '0' AFTER 612 ns,
-        '1' AFTER 802 ns, '0' AFTER 812 ns,
-        '1' AFTER 1302 ns, '0' AFTER 1312 ns,
-        '1' AFTER 1825 ns, '0' AFTER 1835 ns,
-        '1' AFTER 3114 ns, '0' AFTER 3124 ns,
-        '1' AFTER 3426 ns, '0' AFTER 3436 ns;
-    j2 <= '0', '1' AFTER 1005 ns, '0' AFTER 1015 ns,
-        '1' AFTER 1415 ns, '0' AFTER 1425 ns,
-        '1' AFTER 2125 ns, '0' AFTER 2135 ns,
-        '1' AFTER 3215 ns, '0' AFTER 3225 ns,
-        '1' AFTER 3628 ns, '0' AFTER 3638 ns,
-        '1' AFTER 4365 ns, '0' AFTER 4375 ns;
+    j1 <= '0',
+        '1' AFTER 0600 ns, '0' AFTER 0610 ns,
+        '1' AFTER 0800 ns, '0' AFTER 0810 ns,
+        '1' AFTER 1200 ns, '0' AFTER 1210 ns,
+        '1' AFTER 1800 ns, '0' AFTER 1810 ns,
+        '1' AFTER 1950 ns, '0' AFTER 1960 ns,
+        '1' AFTER 3100 ns, '0' AFTER 3110 ns,
+        '1' AFTER 3400 ns, '0' AFTER 3410 ns;
+    j2 <= '0',
+        '1' AFTER 1000 ns, '0' AFTER 1010 ns,
+        '1' AFTER 1300 ns, '0' AFTER 1310 ns,
+        '1' AFTER 2100 ns, '0' AFTER 2110 ns,
+        '1' AFTER 3200 ns, '0' AFTER 3210 ns,
+        '1' AFTER 3600 ns, '0' AFTER 3610 ns,
+        '1' AFTER 4300 ns, '0' AFTER 4310 ns;
 END a1;
