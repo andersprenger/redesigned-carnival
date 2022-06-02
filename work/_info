@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/ander/Downloads/tp3/tp3
 Etb
-Z1 w1654119996
+Z1 w1654141765
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
@@ -21,9 +21,9 @@ Va::EY6GiA6Y@d0`0om[`G3
 !s100 EE2DYK_k>boacbf3<A31U1
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1654139943
+Z7 !s110 1654141773
 !i10b 1
-Z8 !s108 1654139943.000000
+Z8 !s108 1654141773.000000
 Z9 !s90 -reportprogress|300|-work|work|tb_xadrez.vhd|
 Z10 !s107 tb_xadrez.vhd|
 !i113 1
@@ -38,8 +38,8 @@ R3
 DEx4 work 2 tb 0 22 a::EY6GiA6Y@d0`0om[`G3
 l12
 L8
-VM?3U3P?PeEiZ@lhFdX[?<2
-!s100 k8`fFCG;f1J]KoK0f0Xgm2
+VBRaCIAhLL4S^n[O3R]6UD1
+!s100 NWlafjgSi6aNdH3c1Uzc21
 R6
 32
 R7
@@ -51,7 +51,7 @@ R10
 R11
 R12
 Exadrez
-Z16 w1654139921
+Z16 w1654140147
 R13
 R14
 R2
@@ -81,8 +81,8 @@ R3
 R15
 l21
 L17
-Ve4kAnR6efO21b9:ioL2OE2
-!s100 ?:AK84J;Z6Tf^bgD1<Qh12
+V78og>0TLU^3Q;QBDU_cS]2
+!s100 <K?R`ASWX7L^Dkg2W;58?0
 R6
 32
 R7
